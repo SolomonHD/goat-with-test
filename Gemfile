@@ -48,6 +48,10 @@ group :development, :test do
   gem 'rails-footnotes'
 end
 
+group :test do
+  gem 'minitest-reporters', '1.0.5'
+  gem 'mini_backtrace'
+end
 group :production do
   gem 'pg'
   gem 'rails_12factor'
